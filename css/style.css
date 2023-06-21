@@ -6,13 +6,13 @@ body {
   margin: 0;
   padding: 0;
   color: rgb(33, 33, 33);
-  font-family: 'Roboto Light';
+  font-family: "Roboto Light";
   background-color: #e3003d;
   width: 100vw;
 }
 
-#game {
-  margin-top: 100px;
+#size {
+  height: 50px;
 }
 
 main {
@@ -26,8 +26,8 @@ nav {
   font-weight: bolder;
   font-size: 1.2em;
   width: 100vw;
+  height: 40px;
   position: absolute;
-  padding-bottom: 100px;
 }
 
 nav a {
@@ -43,15 +43,6 @@ nav a {
 nav a:hover {
   background-color: #ffffff;
   color: #e3003d;
-}
-
-#geschiedenis {
-  padding-top: 20px;
-}
-
-#concentratie {
-  width: 650px;
-  height: auto;
 }
 
 section {
@@ -89,51 +80,6 @@ section {
   overflow-wrap: break-word;
 }
 
-#poster {
-  padding: 18px 54px;
-  line-height: 1.8em;
-  margin-bottom: 220px;
-  padding-bottom: 80px;
-  overflow: hidden;
-}
-
-#sprites {
-  width: 550px;
-  height: auto;
-}
-
-#prototype {
-  width: 550px;
-  height: auto;
-}
-
-#concentratie {
-  font-size: 15px;
-}
-
-header {
-  height: 75vh;
-  display: flex;
-  padding: 15px;
-  background-image: url(../images/Brandaan-2.jpeg);
-  background-size: cover;
-  justify-content: center;
-  background-position: center;
-}
-
-footer {
-  background-color: #b33034;
-  text-align: center;
-  color: white;
-  padding: 20px 20px;
-  min-height: 220px;
-  display: block;
-}
-
-#footerTxt {
-  font-size: 8vh;
-}
-
 @media screen and (max-width: 600px) {
   nav {
     display: block;
@@ -147,9 +93,5 @@ footer {
 
   .info {
     max-width: 90%;
-  }
-
-  #footerTxt {
-    font-size: 3em;
   }
 }
